@@ -1,0 +1,58 @@
+body {
+    background-image:url('img/Green.png') ;
+    background-size: cover;
+    background-position: center;
+}
+.area-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    margin: 0;
+    padding: 0;
+}
+.edit-container {
+    font-weight: bold;
+    background: rgb(255, 255, 255,0.6);
+    box-shadow: 0 4px 6px rgba(0, 0, 0);
+    width: 100%;
+    max-width: 800px;
+}
+.edit-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.form-control {
+    border-radius: 40px;
+}
+.form-control:disabled {
+    background-color: rgb(255, 255, 255,0.6); 
+    color: black; /* คงสีข้อความ */
+    border-color: #ccc; /* คงสีขอบเดิม */
+}
+
+.center-icon i{
+    display: flex;
+    margin-left: 15px;
+    gap: 5px;
+    margin-top: 15px;
+}
+.Login{
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0,0.7);
+}
+
+.edit{
+    margin: 10px;
+    white-space: nowrap;
+    margin-top: 6px;
+}
+
+.button-edit{
+    margin: 15px;
+    text-align: right;
+}

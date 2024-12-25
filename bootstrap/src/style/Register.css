@@ -1,0 +1,67 @@
+body {
+    background-image:url('img/Green.png') ;
+    background-size: cover;
+    background-position: center;
+}
+.area-bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    margin: 0;
+}
+.btn-group{
+    font-weight: bold;
+    background-color: rgb(255, 255, 255,0.8);
+}
+.Register-container {
+    font-weight: bold;
+    background: rgb(255, 255, 255,0.6);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0);
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+}
+.Register-container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: bold;
+}
+.form-control {
+    border-radius: 50px;
+}
+.btn-login {
+    background-color: #007bff;
+    color: white;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+.btn-login:hover {
+    background-color: #0056b3;
+    
+}
+
+.center-icon i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+.Login{
+    font-size: 0.9rem;
+    margin-top: 5px;
+    text-decoration: none;
+    color: rgb(0, 0, 0,0.7);
+}
+.Login:hover{
+    text-decoration: underline;
+    
+}
+.hover:hover{
+    color: #007bff;
+    cursor: pointer;
+    font-weight: bold;
+}
