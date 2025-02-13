@@ -1,0 +1,48 @@
+body {
+    background-image:url('img/Green.png') ;
+    background-size: cover;
+    background-position: center;
+}
+.area{
+    height:100vh;
+    margin: 0;
+}
+.login-container {
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 4px 6px rgba(0, 0, 0);
+    max-width: 400px;
+}
+.tp{
+    text-align: center;
+    width: 30%;
+}
+.fname{
+   margin-left: 5%;
+}
+.lname{
+    margin-left: 30%;
+ }
+.a1{
+    width: 90%;
+    margin-left: 5%;
+}
+.a3{
+    width: 10%;
+}
+.a4{
+    margin-left: 5%;
+}
+.a5{
+    margin-left: 8%;
+}
+.texth1{
+    margin-left: 3%;
+
+}
+.texth2{
+    margin-left: 10%;
+}
+
+.i1{
+    margin-top: 2%;
+}
